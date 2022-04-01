@@ -16,3 +16,10 @@ hr{
 #estrellita{
     color: rgb(0, 0, 2);
 }
+
+a{
+    color: rgb(164, 236, 96);
+}
+a:hover{
+    color: rgb(172, 11, 164);
+}

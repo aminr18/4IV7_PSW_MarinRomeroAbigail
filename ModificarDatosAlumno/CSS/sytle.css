@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(241, 129, 144);
+}
+input{
+    background-color: rgb(51, 150, 150);
+    color: rgb(234, 238, 241);
+}
+.botonBonito{
+    background-color: rgb(85, 216, 172);
+    color: black;
+}
+hr{
+    color: rgb(117, 216, 122);
+    size: 90px;
+}
+#estrellita{
+    color: rgb(0, 0, 2);
+}

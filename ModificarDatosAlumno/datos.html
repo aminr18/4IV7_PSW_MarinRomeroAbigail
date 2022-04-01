@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del alumno principal </title>
+    <script src="JS/validardatos.js"></script>
+    <link rel="stylesheet" href="CSS/sytle.css">
+    
+</head>
+<body> 
+  <h2>
+      Escribe en los campos que desees cambiar información personal, al final da clik en el botón de validar
+  </h2>
+  <form action="" method="post" name="formulario">
+    <td>Introduce tu número de boleta para modificar o cambiar cualquier dato: </td>
+    <td><input type="number" name="formulario" id="boleta"></td>
+    <td><input type="button" value="Validar datos" name="enviar" onclick="return validar(this)" class="botonBonito"></td>
+    <table>
+        <hr>
+        <hr>
+        <h2>
+            Cambiar o modificar datos: Boleta: 
+        </H2>
+        <tr>
+            <td>Introduce tu Apellido Parterno: </td>
+            <td><input type="text" name="formulario" id="paterno"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Apellido Materno: </td>
+            <td><input type="text" name="formulario" id="materno"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Nombre: </td>
+            <td><input type="text" name="formulario" id="nombre"></td>
+        </tr>
+        <tr>
+            <td>Escribe tu nuevo número de boelta: </td>
+            <td><input type="number" name="formulario" id="nuevaboleta"></td>
+        </tr>  
+            <td><input type="submit" value="Validar datos" name="enviar" onclick="validar1(this)" class="botonBonito"></td>
+    </table>
+    </form>
+
+    //*---------------------------------------------------------------------------------------------------------------*\\
+    <hr>
+    <hr>
+    <table>
+        <form action="" method="post" name="formulario">
+        <h2>
+            Cambiar o modificar datos: Nombre: 
+        </H2>
+        <tr>
+            <td>Introduce tu Apellido Parterno: </td>
+            <td><input type="text" name="formulario" id="paterno1"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Apellido Materno: </td>
+            <td><input type="text" name="formulario" id="materno1"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Nombre corregido: </td>
+            <td><input type="text" name="formulario" id="nombre1"></td>
+        </tr>
+            <td><input type="button" value="Validar datos" name="enviar" onclick="validar5(this)" class="botonBonito"></td>
+
+        </form>
+    </table>
+
+    ------------------------------------------------------------------------------------------------------------------
+    <hr>
+    <hr>
+    <table>
+        <form action="" method="post" name="formulario">
+        <h2>
+            Cambiar o modificar datos: Apellido Paterno: 
+        </H2>
+        <tr>
+            <td>Introduce tu Apellido Parterno corregido: </td>
+            <td><input type="text" name="formulario" id="paterno2"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Apellido Materno: </td>
+            <td><input type="text" name="formulario" id="materno2"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Nombre: </td>
+            <td><input type="text" name="formulario" id="nombre2"></td>
+        </tr>
+            <td><input type="button" value="Validar datos" name="enviar" onclick="validar4(this)" class="botonBonito"></td>
+
+        </form>
+    </table>
+
+    ------------------------------------------------------------------------------------------------------------------
+    <hr>
+    <hr>
+    <table>
+        <form action="" method="post" name="formulario">
+        <h2>
+            Cambiar o modificar datos: Apellido Materno: 
+        </H2>
+        <tr>
+            <td>Introduce tu Apellido Parterno: </td>
+            <td><input type="text" name="formulario" id="paterno3"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Apellido Materno corregido: </td>
+            <td><input type="text" name="formulario" id="materno3"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Nombre: </td>
+            <td><input type="text" name="formulario" id="nombre3"></td>
+        </tr>
+            <td><input type="button" value="Validar datos" name="enviar" onclick="validar3(this)" class="botonBonito"></td>
+
+        </form>
+    </table>
+
+    ----------------------------------------------------------------------------------------------------------------
+    <hr>
+    <hr>
+    <table>
+        <form action="" method="post" name="formulario">
+        <h2>
+            Cambiar o modificar datos: Número telefónico: 
+        </H2>
+        <tr>
+            <td>Introduce tu Número telefónico: </td>
+            <td><input type="number" name="formulario" id="telefono"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Número telefónico corregido: </td>
+            <td><input type="number" name="formulario" id="telefono1"></td>
+        </tr>
+            <td><input type="button" value="Validar datos" name="enviar" onclick="validar2(this)" class="botonBonito"></td>
+
+        </form>
+    </table>
+------------------------------------------------------------------------------------------------------------------
+<hr>
+    <hr>
+    <table>
+        <form action="" method="post" name="formulario">
+        <h2 id="estrellita">
+            Cambiar o modificar datos: Todos los datos: 
+        </H2>
+        <tr>
+            <td>Introduce tu Número de boleta corregido: </td>
+            <td><input type="text" name="formulario" id="nuevaboleta"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Apellido Parterno corregido: </td>
+            <td><input type="text" name="formulario" id="paterno5"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Apellido Materno corregido: </td>
+            <td><input type="text" name="formulario" id="materno5"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Nombre corregido: </td>
+            <td><input type="text" name="formulario" id="nombre5"></td>
+        </tr>
+        <tr>
+            <td>Introduce tu Número telefónico corregido: </td>
+            <td><input type="number" name="formulario" id="telefono1"></td>
+        </tr>
+            <td><input type="button" value="Validar datos" name="enviar" onclick="validar7(this)" class="botonBonito"></td>
+
+        </form>
+    </table>
+
+
+
+
+  
+</body>
+</html>
